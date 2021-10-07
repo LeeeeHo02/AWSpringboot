@@ -23,6 +23,8 @@ repositories {
     mavenCentral()
 }
 dependencies {
+    implementation 'org.projectlombok:lombok:1.18.16'
+    implementation 'org.projectlombok:lombok:1.18.16'
     compile('org.springframework.boot:spring-boot-starter-web')
     compile('org.projectlombok:lobok')
     testCompile('org.springframework.boot:spring-boot-starter-test')
